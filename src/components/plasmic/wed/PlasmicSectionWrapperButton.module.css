@@ -1,0 +1,20 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  cursor: pointer;
+  justify-self: flex-start;
+  padding: 0px;
+}
+.link {
+  color: var(--token-BDhV6t22HyFr);
+  text-decoration-line: underline;
+}
+.root:hover .link {
+  color: var(--token-vBfKJXvpR0TD);
+}

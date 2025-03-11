@@ -1,0 +1,21 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  max-width: 100%;
+  position: relative;
+  transition-property: all;
+  transition-duration: 0.5s;
+  justify-self: flex-start;
+  height: 40px;
+  background: var(--token-vBfKJXvpR0TD);
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.5s;
+  border-radius: 8px;
+  padding: 0px;
+}
+.root:hover {
+  background: #b91c1c;
+}
